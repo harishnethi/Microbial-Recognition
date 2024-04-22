@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+.Main-section {
+    background-image: url('https://img.freepik.com/free-photo/abstract-shapes-flowing-through-high-scale-magnification-generated-by-ai_188544-9770.jpg?t=st=1713789081~exp=1713792681~hmac=aa53740073a5ef1f83b14af6b3c11754cc3e3f22f79fe537ce72d34f38d60e26&w=1060');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading1 {
+    text-align: center;
+    color: white;
+    /* margin-top: 20%; */
+    font-size: 5rem;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 24px;
+    /* margin-left: 43%; */
+    border: none;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+button:hover {
+    color: white;
+    border: none;
+}
+
+#predictionResult {
+    color: white;
+}
